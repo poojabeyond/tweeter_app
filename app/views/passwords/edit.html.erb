@@ -1,0 +1,28 @@
+<%= form_with model: Current.user,data: { turbo: true }, url: password_path do |form| %>
+<div class='container-fluid mt-5 '>
+<div class = 'row d-flex justify-content-center '>
+<div class="col-3 bg-info mt-5">
+   <h2 class='text-center p-3'>Edit Password </h2>
+   <% if Current.user.errors.any? %>
+   <div class="alert alert-danger p-0" role="alert">          
+   <% Current.user.errors.full_messages.each do |message| %>
+   <ul class='m-0'><li><%= message %></li></ul>
+    <% end %>
+   </div>
+   <% end %>
+
+<div class='m-2'>
+  <%= form.label :password %>
+  <%= form.password_field :password,  class:"form-control"%>
+</div>
+<div class='m-2'>
+  <%= form.label :confirm_password%>
+  <%= form.password_field :password_confirmation,  class:"form-control" %>
+</div>  
+  <div class="text-center m-4"> 
+   <%= form.submit "Submit", class: 'btn btn-dark px-5 m-2'  %>
+  </div>
+   </div >
+   </div>
+   </div>
+  <% end %>

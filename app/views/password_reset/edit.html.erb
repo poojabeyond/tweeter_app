@@ -1,0 +1,27 @@
+<%= form_with model: @user,data: { turbo: true }, url: password_reset_edit_path(token: params[:token]) do |form| %>
+<div class='container-fluid mt-5 '>
+<div class = 'row d-flex justify-content-center '>
+<div class="col-3 bg-info mt-5">
+  <h2 class='text-center p-3'>Reset Password</h2>
+  <% if @user.errors.any? %>
+   <div class="alert alert-danger p-0" role="alert">          
+    <% @user.errors.full_messages.each do |message| %>
+    <ul class='m-0'><li><%= message %></li></ul>
+    <% end %>
+   </div>
+   <% end %>
+<div class='m-2'>
+   <%= form.label :password %>
+   <%= form.text_field :password,  class:"form-control"%>
+</div>   
+<div class='m-2'>
+   <%= form.label :confirm_password%>
+   <%= form.password_field :password_confirmation,  class:"form-control" %>
+</div>   
+  <div class="text-center m-4"> 
+   <%= form.submit "Edit", class: 'btn btn-dark px-5 m-2' %>
+  </div>
+   </div >
+   </div>
+   </div>
+  <% end %>

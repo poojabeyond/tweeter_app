@@ -1,13 +1,19 @@
-<div class='mb-3 card card-body w-50'>
+<div class='m-4 card card-body w-50 shadow p-3 mb-5 bg-body-tertiary rounded rounded-end'>
   <%= tweet.body %>
-    <div class='me-4'>
+    <div class='d-flex justify-content-between'>
+    <div>
      <%= image_tag tweet.twitter_account.image, class:'rounded-circle'%>
      <%= link_to "@#{tweet.twitter_account.username}", "https://twitter.com/#{tweet.twitter_account.username}",  targe: :_blank  %>
+     </div>
+     <div>
      <% if tweet.published? %>
-      <%= link_to 'View Tweet', 'https://twitter.com/#{tweet.twitter_account.username}/status/#{tweet.tweet_id}' ,target: :_blank %>
+      <%= link_to 'View Tweet', "https://twitter.com/#{tweet.twitter_account.username}/status/#{tweet.tweet_id}" ,target: :_blank , class: 'btn btn-success rounded-pill'%>
      <% else %>
-       Scheduled for <%= l tweet.publish_at, format: :long %>
-       <%= link_to 'Edit Tweet', edit_tweet_path(tweet) %>
+     <div class="d-flex ">
+       <p class="mt-2 px-2"> Scheduled for <%= l tweet.publish_at, format: :long %> </p>
+       <%= link_to 'Edit Tweet', edit_tweet_path(tweet), class: 'btn btn-warning text-center p-2 rounded' %>
+      </div> 
      <% end %>
+     </div>
   </div>
 </div>

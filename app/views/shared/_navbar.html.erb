@@ -1,6 +1,6 @@
 <nav class="navbar bg-dark navbar-expand-lg">
   <div class="container-fluid ">
-    <a class="navbar-brand" href="/">AppName</a>
+    <a class="navbar-brand" href="/">Tweeter</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -19,10 +19,10 @@
       <ul class="navbar-nav ms-auto mb-2">
         <% if Current.user %>
          <li class="nav-item" >
-          <span class='navbar-text text-light'><%= link_to  Current.user.email, password_path %></span>
+          <span class='navbar-text text-light d-flex mx-4'><%= link_to  Current.user.email, password_path %></span>
          </li>
          <li class="nav-item">
-          <%= button_to "Logout", logout_path, method: :delete ,data: { turbo_confirm: 'Are you sure?' }, class:"nav-link"%>
+          <%= button_to "Logout", logout_path, method: :delete ,data: { turbo_confirm: 'Are you sure?' },class: 'btn btn-light'%>
 
          </li>
         <% else %>

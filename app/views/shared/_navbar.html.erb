@@ -1,25 +1,25 @@
-<nav class="navbar bg-dark navbar-expand-lg">
+<nav class="navbar bg-dark  navbar-expand-lg">
   <div class="container-fluid ">
-    <a class="navbar-brand" href="/">TweeterApp</a>
+    <a class="navbar-brand text-light" href="/">TweeterApp</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <%=  link_to "Home", root_path,  class:"nav-link"  %>
+        <li class="nav-item ">
+          <%=  link_to "Home", root_path,  class:"nav-link text-light"  %>
         </li>
          <li class="nav-item">
-          <%=  link_to "Tweets", tweets_path,  class:"nav-link"  %>
+          <%=  link_to "Tweets", tweets_path,  class:"nav-link text-light"  %>
         </li>
         <li class="nav-item">
-          <%=  link_to "Twitter", twitter_accounts_path,  class:"nav-link"  %>
+          <%=  link_to "Twitter", twitter_accounts_path,  class:"nav-link text-light"  %>
         </li>
       </ul>
       <ul class="navbar-nav ms-auto mb-2">
         <% if Current.user %>
          <li class="nav-item" >
-          <span class='navbar-text text-light d-flex mx-4'><%= link_to  Current.user.email, password_path %></span>
+          <span class='navbar-text d-flex mx-4'><%= link_to  Current.user.email, password_path, class:"text-light" %></span>
          </li>
          <li class="nav-item">
           <%= button_to "Logout", logout_path, method: :delete ,data: { turbo_confirm: 'Are you sure?' },class: 'btn btn-light'%>

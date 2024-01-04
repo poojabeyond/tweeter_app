@@ -46,7 +46,7 @@ gem "bootsnap", require: false
 
 # Use Sass to process CSS
 gem "sassc-rails"
-
+gem 'bootstrap', '~> 5.3.2'
 # gem 'bootstrap-sass', '3.4.1'
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
@@ -84,3 +84,6 @@ gem "omniauth-rails_csrf_protection", "~> 1.0"
 
 
 gem "x", "~> 0.14.1"
+
+
+

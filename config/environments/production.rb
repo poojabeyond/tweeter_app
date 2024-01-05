@@ -1,8 +1,8 @@
 require "active_support/core_ext/integer/time"
 
 Rails.application.configure do
-  
-  config.secret_key_base = Rails.application.credentials.production[:secret_key_base]
+
+  # config.secret_key_base = Rails.application.credentials.production[:secret_key_base]
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
@@ -30,7 +30,9 @@ Rails.application.configure do
   # config.assets.css_compressor = :sass
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
-  config.assets.compile = true
+  config.assets.compile = false
+  config.assets.precompile += ['application.js']
+
 
   # Enable serving of images, stylesheets, and JavaScripts from an asset server.
   # config.asset_host = "http://assets.example.com"

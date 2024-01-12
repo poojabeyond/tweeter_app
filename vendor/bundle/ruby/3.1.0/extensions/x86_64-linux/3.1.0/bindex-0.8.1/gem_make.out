@@ -1,0 +1,15 @@
+current directory: /home/pooja/Project/Rails/signup/Form/vendor/bundle/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+/home/pooja/.asdf/installs/ruby/3.1.4/bin/ruby -I /home/pooja/.asdf/installs/ruby/3.1.4/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /home/pooja/Project/Rails/signup/Form/vendor/bundle/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240112-85674-ysp8c6 sitelibdir\=./.gem.20240112-85674-ysp8c6 clean
+
+current directory: /home/pooja/Project/Rails/signup/Form/vendor/bundle/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240112-85674-ysp8c6 sitelibdir\=./.gem.20240112-85674-ysp8c6
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/pooja/Project/Rails/signup/Form/vendor/bundle/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240112-85674-ysp8c6 sitelibdir\=./.gem.20240112-85674-ysp8c6 install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20240112-85674-ysp8c6/skiptrace/internal

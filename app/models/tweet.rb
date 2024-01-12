@@ -20,7 +20,9 @@ class Tweet < ApplicationRecord
   end
 
   def publish_to_twitter!
+    Rails.logger.info("Publish to Twitter method called!")
     tweet = twitter_account.client.post("tweets", "{\"text\":\"#{body}\"}")
+    Rails.logger.info("Tweet ID from Twitter: #{tweet['data']['id']}")
     update(tweet_id: tweet["data"]["id"])
   end
 

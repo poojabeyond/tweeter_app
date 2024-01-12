@@ -1,6 +1,6 @@
 <div class='m-4 card card-body w-50 shadow p-3 mb-5 bg-body-tertiary rounded rounded-end'>
 
-<%= form_with model: tweet, data: { turbo: true }, local: true do |form| %>
+<%= form_with model: @tweet, data: { turbo: true }, local: true do |form| %>
         <%= render "shared/form_errors", form: form %>
         <div class="mb-3">
           <%= form.label :twitter_account_id %>
@@ -18,9 +18,7 @@
         </div> 
         <div class="m-2">
           <%= form.submit "Schedule", class: 'btn btn-success px-5' %>
-          <% if form.object.persisted? %>
-          <%= link_to 'Delete', form.object, data: {turbo_method: :delete, turbo_confirm: 'Are you sure?'}, class:'btn btn-danger'%>
-          <% end %>
+        
         </div>
 <% end %>
 </div>

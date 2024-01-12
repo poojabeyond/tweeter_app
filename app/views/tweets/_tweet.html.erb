@@ -11,8 +11,9 @@
      <% else %>
      <div class="d-flex ">
        <p class="mt-2 px-2"> Scheduled for <%= l tweet.publish_at, format: :long %> </p>
-       <%= link_to 'Edit Tweet', edit_tweet_path(tweet), class: 'btn btn-warning text-center p-2 rounded' %>
-      </div> 
+       <%= link_to 'Edit Tweet', edit_tweet_path(tweet), class: 'btn btn-warning text-center p-0 pb-0 mx-1 pt-2 rounded' %>
+       <%= button_to 'Delete', tweet, method: :delete, data: { turbo_method: :delete, turbo_confirm: 'Are you sure?' }, class: 'btn btn-danger ' %>
+     </div> 
      <% end %>
      </div>
   </div>

@@ -10,7 +10,6 @@ gem "rails", "~> 7.0.8"
 gem "sprockets-rails"
 
 # Use pg as the database for Active Record
-gem "pg", "~> 1.1"
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
@@ -81,6 +80,7 @@ gem "omniauth-twitter", "~> 1.4"
 gem "omniauth-rails_csrf_protection", "~> 1.0"
 
 
+gem 'sqlite3'
 
 gem "x", "~> 0.14.1"
 

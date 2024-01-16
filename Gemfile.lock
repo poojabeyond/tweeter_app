@@ -275,7 +275,7 @@ DEPENDENCIES
   letter_opener
   omniauth-rails_csrf_protection (~> 1.0)
   omniauth-twitter (~> 1.4)
-  pg
+  pg (~> 1.2)
   puma (~> 5.0)
   rails (~> 7.0.8)
   sassc-rails

@@ -19,5 +19,5 @@ production:
   database: <%= ENV['DATABASE_NAME'] %>
   username: <%= ENV['DATABASE_USERNAME'] %>
   password: <%= ENV['DATABASE_PASSWORD'] %>
-  host: <%= ENV['DATABASE_HOST'] %>
-
+  host: <%= ENV['DATABASE_HOST'] if ENV['DATABASE_HOST'].present? %>
+  url: <%= ENV['DATABASE_URL'] if ENV['DATABASE_URL'].present? %>

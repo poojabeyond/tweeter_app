@@ -160,6 +160,7 @@ GEM
     omniauth-twitter (1.4.0)
       omniauth-oauth (~> 1.1)
       rack
+    pg (1.5.4)
     psych (5.1.2)
       stringio
     public_suffix (5.0.4)
@@ -274,6 +275,7 @@ DEPENDENCIES
   letter_opener
   omniauth-rails_csrf_protection (~> 1.0)
   omniauth-twitter (~> 1.4)
+  pg
   puma (~> 5.0)
   rails (~> 7.0.8)
   sassc-rails

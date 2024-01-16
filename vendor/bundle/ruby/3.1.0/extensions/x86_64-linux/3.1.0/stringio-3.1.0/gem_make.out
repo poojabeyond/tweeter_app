@@ -3,13 +3,13 @@ current directory: /home/pooja/Project/Rails/signup/Form/vendor/bundle/ruby/3.1.
 creating Makefile
 
 current directory: /home/pooja/Project/Rails/signup/Form/vendor/bundle/ruby/3.1.0/gems/stringio-3.1.0/ext/stringio
-make DESTDIR\= sitearchdir\=./.gem.20240112-85674-1zx1sv sitelibdir\=./.gem.20240112-85674-1zx1sv clean
+make DESTDIR\= sitearchdir\=./.gem.20240116-8319-n4curf sitelibdir\=./.gem.20240116-8319-n4curf clean
 
 current directory: /home/pooja/Project/Rails/signup/Form/vendor/bundle/ruby/3.1.0/gems/stringio-3.1.0/ext/stringio
-make DESTDIR\= sitearchdir\=./.gem.20240112-85674-1zx1sv sitelibdir\=./.gem.20240112-85674-1zx1sv
+make DESTDIR\= sitearchdir\=./.gem.20240116-8319-n4curf sitelibdir\=./.gem.20240116-8319-n4curf
 compiling stringio.c
 linking shared-object stringio.so
 
 current directory: /home/pooja/Project/Rails/signup/Form/vendor/bundle/ruby/3.1.0/gems/stringio-3.1.0/ext/stringio
-make DESTDIR\= sitearchdir\=./.gem.20240112-85674-1zx1sv sitelibdir\=./.gem.20240112-85674-1zx1sv install
-/usr/bin/install -c -m 0755 stringio.so ./.gem.20240112-85674-1zx1sv
+make DESTDIR\= sitearchdir\=./.gem.20240116-8319-n4curf sitelibdir\=./.gem.20240116-8319-n4curf install
+/usr/bin/install -c -m 0755 stringio.so ./.gem.20240116-8319-n4curf

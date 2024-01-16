@@ -3,10 +3,10 @@ current directory: /home/pooja/Project/Rails/signup/Form/vendor/bundle/ruby/3.1.
 creating Makefile
 
 current directory: /home/pooja/Project/Rails/signup/Form/vendor/bundle/ruby/3.1.0/gems/sassc-2.4.0/ext
-make DESTDIR\= sitearchdir\=./.gem.20240112-85674-kuaidi sitelibdir\=./.gem.20240112-85674-kuaidi clean
+make DESTDIR\= sitearchdir\=./.gem.20240116-8319-rt0ozm sitelibdir\=./.gem.20240116-8319-rt0ozm clean
 
 current directory: /home/pooja/Project/Rails/signup/Form/vendor/bundle/ruby/3.1.0/gems/sassc-2.4.0/ext
-make DESTDIR\= sitearchdir\=./.gem.20240112-85674-kuaidi sitelibdir\=./.gem.20240112-85674-kuaidi
+make DESTDIR\= sitearchdir\=./.gem.20240116-8319-rt0ozm sitelibdir\=./.gem.20240116-8319-rt0ozm
 compiling ./libsass/src/ast.cpp
 compiling ./libsass/src/ast2c.cpp
 compiling ./libsass/src/ast_fwd_decl.cpp
@@ -76,5 +76,5 @@ compiling ./libsass/src/values.cpp
 linking shared-object sassc/libsass.so
 
 current directory: /home/pooja/Project/Rails/signup/Form/vendor/bundle/ruby/3.1.0/gems/sassc-2.4.0/ext
-make DESTDIR\= sitearchdir\=./.gem.20240112-85674-kuaidi sitelibdir\=./.gem.20240112-85674-kuaidi install
-/usr/bin/install -c -m 0755 libsass.so ./.gem.20240112-85674-kuaidi/sassc
+make DESTDIR\= sitearchdir\=./.gem.20240116-8319-rt0ozm sitelibdir\=./.gem.20240116-8319-rt0ozm install
+/usr/bin/install -c -m 0755 libsass.so ./.gem.20240116-8319-rt0ozm/sassc

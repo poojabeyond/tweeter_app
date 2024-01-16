@@ -41,7 +41,7 @@ checked program was:
 /* end */
 
 LD_LIBRARY_PATH=.:/home/pooja/.asdf/installs/ruby/3.1.4/lib "gcc -o conftest -I/home/pooja/.asdf/installs/ruby/3.1.4/include/ruby-3.1.0/x86_64-linux -I/home/pooja/.asdf/installs/ruby/3.1.4/include/ruby-3.1.0/ruby/backward -I/home/pooja/.asdf/installs/ruby/3.1.4/include/ruby-3.1.0 -I.    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wold-style-definition -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable -Wundef  -fPIC conftest.c  -L. -L/home/pooja/.asdf/installs/ruby/3.1.4/lib -Wl,-rpath,/home/pooja/.asdf/installs/ruby/3.1.4/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -Wl,-rpath,/home/pooja/.asdf/installs/ruby/3.1.4/lib -L/home/pooja/.asdf/installs/ruby/3.1.4/lib -lruby  -lm  -lc"
-/usr/bin/ld: /tmp/cc6tB0wQ.o: in function `t':
+/usr/bin/ld: /tmp/cc1DvQTp.o: in function `t':
 /home/pooja/Project/Rails/signup/Form/vendor/bundle/ruby/3.1.0/gems/io-console-0.7.1/ext/io/console/conftest.c:15: undefined reference to `rb_io_path'
 collect2: error: ld returned 1 exit status
 checked program was:
@@ -201,7 +201,7 @@ checked program was:
 /* end */
 
 LD_LIBRARY_PATH=.:/home/pooja/.asdf/installs/ruby/3.1.4/lib "gcc -o conftest -I/home/pooja/.asdf/installs/ruby/3.1.4/include/ruby-3.1.0/x86_64-linux -I/home/pooja/.asdf/installs/ruby/3.1.4/include/ruby-3.1.0/ruby/backward -I/home/pooja/.asdf/installs/ruby/3.1.4/include/ruby-3.1.0 -I.    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wold-style-definition -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable -Wundef  -fPIC conftest.c  -L. -L/home/pooja/.asdf/installs/ruby/3.1.4/lib -Wl,-rpath,/home/pooja/.asdf/installs/ruby/3.1.4/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -Wl,-rpath,/home/pooja/.asdf/installs/ruby/3.1.4/lib -L/home/pooja/.asdf/installs/ruby/3.1.4/lib -lruby  -lm  -lc"
-/usr/bin/ld: /tmp/ccn0AKv1.o: in function `t':
+/usr/bin/ld: /tmp/ccPrvEhf.o: in function `t':
 /home/pooja/Project/Rails/signup/Form/vendor/bundle/ruby/3.1.0/gems/io-console-0.7.1/ext/io/console/conftest.c:15: undefined reference to `rb_io_closed_p'
 collect2: error: ld returned 1 exit status
 checked program was:
@@ -256,7 +256,7 @@ checked program was:
 /* end */
 
 LD_LIBRARY_PATH=.:/home/pooja/.asdf/installs/ruby/3.1.4/lib "gcc -o conftest -I/home/pooja/.asdf/installs/ruby/3.1.4/include/ruby-3.1.0/x86_64-linux -I/home/pooja/.asdf/installs/ruby/3.1.4/include/ruby-3.1.0/ruby/backward -I/home/pooja/.asdf/installs/ruby/3.1.4/include/ruby-3.1.0 -I.    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wold-style-definition -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable -Wundef  -fPIC conftest.c  -L. -L/home/pooja/.asdf/installs/ruby/3.1.4/lib -Wl,-rpath,/home/pooja/.asdf/installs/ruby/3.1.4/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -Wl,-rpath,/home/pooja/.asdf/installs/ruby/3.1.4/lib -L/home/pooja/.asdf/installs/ruby/3.1.4/lib -lruby  -lm  -lc"
-/usr/bin/ld: /tmp/ccvKk3vB.o: in function `t':
+/usr/bin/ld: /tmp/cceRv8f2.o: in function `t':
 /home/pooja/Project/Rails/signup/Form/vendor/bundle/ruby/3.1.0/gems/io-console-0.7.1/ext/io/console/conftest.c:15: undefined reference to `rb_io_open_descriptor'
 collect2: error: ld returned 1 exit status
 checked program was:
